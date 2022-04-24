@@ -1,5 +1,5 @@
 void main(){
-  String afra = "GANTENG BANGET";
+  String afra1 = "GANTENG BANGET";
   int angka1 = 5;
   int angka2 = 10;
   int hasil;
@@ -7,5 +7,5 @@ void main(){
   hasil  = angka1 * angka2;
 
   print(hasil);
-  print(afra);
+  print(afra1);
 }
