@@ -1,11 +1,15 @@
-void main(){
-  String afra1 = "GANTENG BANGET";
-  int angka1 = 5;
-  int angka2 = 10;
-  int hasil;
-  
-  hasil  = angka1 * angka2;
+void main() {
+//  int i = 1;
 
-  print(hasil);
-  print(afra1);
+//  while (i<=10) {
+//    print(i);
+//    i++;
+//  }
+
+int i = 10;
+
+while (i>=5) {
+  print(i);
+  i--;
+}  
 }
