@@ -9,6 +9,10 @@ circle.draw();
 
 var square = Square();
 square.draw();
+
+var triangle = Triangle();
+triangle.myNormalMethod(); //memanggil Method di sbuah abstract class orangtua
+
 }
 
 //Abstract 
@@ -21,7 +25,7 @@ abstract class Shape { //CLASS
   void draw();
   
   void myNormalMethod(){  //METHOD!
-    //Some Code
+    print("Ini Normal Method");
   }
 }
 
@@ -40,5 +44,11 @@ class Circle extends Shape {
 class Square extends Shape {
   void draw(){
     print("Menggambar Kotak");
+  }
+}
+
+class Triangle extends Shape {
+  void draw(){
+    print("Menggambar Segitiga");
   }
 }
