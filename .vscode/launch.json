@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart & Flutter",
-            "program": "${workspaceFolder}/Inheritance/main.dart",
+            "program": "${workspaceFolder}/Abtract Class dan Abstract Method/main.dart",
             "request": "launch",
             "type": "dart"
         }
